@@ -1,0 +1,35 @@
+/* src/styles/peliculas.css */
+
+.contenedor-peliculas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las películas se ajusten a la siguiente fila */
+  justify-content: space-around; /* Distribuye los elementos con espacio entre ellos */
+  gap: 20px; /* Espacio entre cada tarjeta de película */
+}
+
+.pelicula {
+  width: 200px; /* Ancho fijo para cada película */
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pelicula img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .pelicula {
+    width: 150px; /* Reducimos el tamaño en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .pelicula {
+    width: 100px; /* Hacemos las películas aún más pequeñas en pantallas muy pequeñas */
+  }
+}
