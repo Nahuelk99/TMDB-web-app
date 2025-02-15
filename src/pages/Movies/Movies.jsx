@@ -32,9 +32,9 @@ function Movies() {
   };
 
   const getScoreColor = (score) => {
-    if (score >= 70) return "bg-green-500"; // Verde
-    if (score >= 50) return "bg-yellow-500"; // Amarillo
-    return "bg-red-500"; // Rojo
+    if (score >= 70) return "bg-green-500";
+    if (score >= 50) return "bg-yellow-500";
+    return "bg-red-500";
   };
 
   return (
