@@ -1,75 +1,77 @@
-<<<<<<< HEAD
-# TMDB-web-app
-Frontend para visualizar películas mas populares, en cartelera y próximamente.
-=======
-# Getting Started with Create React App
+# 🎬 Frontend de Películas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es el frontend de una aplicación que utiliza la API de The Movie Database (TMDB) para mostrar información sobre películas populares, mejor calificadas, en cartelera y próximas a estrenarse. La aplicación ofrece una experiencia interactiva y fácil de usar para explorar películas y obtener detalles de cada una.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- Listado de películas por categoría (Populares, Mejor calificadas, En cartelera y Próximos estrenos).
+- Búsqueda de películas por título.
+- Detalles de cada película, incluyendo sinopsis, puntuación y fecha de estreno.
+- Diseño responsivo y atractivo.
 
-### `npm start`
+## 🛠️ Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca de JavaScript para construir la interfaz de usuario.
+- **Tailwind CSS**: Framework para el diseño y estilizado de la aplicación.
+- **TMDB API**: Proporciona la información de películas en tiempo real.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Requisitos Previos
 
-### `npm test`
+Antes de comenzar, asegúrate de tener instalado:
+- **Node.js** (versión recomendada: 16 o superior)
+- **npm** o **yarn**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Instalación y Configuración
 
-### `npm run build`
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/Nahuelk99/TMDB-web-app.git
+   cd TMDB-web-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instala las dependencias:
+   ```sh
+   npm install
+   # o
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Crea un archivo `.env` en la raíz del proyecto y agrega tu clave de API de TMDB:
+   ```env
+   TMDB_API_KEY=tu_api_key_aqui
+   ```
+   > Si no tienes una API Key, puedes obtenerla siguiendo estos pasos:
+   > - Regístrate en [TMDB](https://www.themoviedb.org/)
+   > - Ve a "Configuración de cuenta" > "API" > "Solicitar clave de API"
+   > - Copia la clave y pégala en el archivo `.env`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-### `npm run eject`
+## 🎥 Capturas de Pantalla
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*(Opcional: Agregar imágenes de la interfaz de la aplicación)*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Mejoras Futuras
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Implementación de autenticación para guardar películas favoritas.
+- Integración de un sistema de comentarios y calificaciones.
+- Soporte para múltiples idiomas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contribución
 
-## Learn More
+Si deseas contribuir a este proyecto, puedes:
+1. Hacer un fork del repositorio.
+2. Crear una nueva rama (`git checkout -b feature-nueva-funcionalidad`).
+3. Realizar cambios y hacer commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Enviar un pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 Licencia
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 9d84896 (Primer commit - Subiendo proyecto)
