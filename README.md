@@ -47,14 +47,15 @@ Antes de comenzar, asegúrate de tener instalado:
 
 4. Inicia el servidor de desarrollo:
    ```sh
-   npm run dev
+   npm start
    # o
    yarn dev
    ```
 
 ## 🎥 Capturas de Pantalla
 
-*(Opcional: Agregar imágenes de la interfaz de la aplicación)*
+![image](https://github.com/user-attachments/assets/26c9ea4f-cada-4902-baca-316c06e2bbd3)
+
 
 ## 📌 Mejoras Futuras
 
