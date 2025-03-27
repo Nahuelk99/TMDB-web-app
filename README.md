@@ -55,6 +55,8 @@ Antes de comenzar, asegúrate de tener instalado:
 ## 🎥 Capturas de Pantalla
 
 ![image](https://github.com/user-attachments/assets/26c9ea4f-cada-4902-baca-316c06e2bbd3)
+![image](https://github.com/user-attachments/assets/d5c84fec-eb7e-4dbe-bed8-c907fe5b8990)
+
 
 
 ## 📌 Mejoras Futuras
